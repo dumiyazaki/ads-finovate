@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Nunito:wght@300&family=Poppins:wght@200&display=swap');
+
+body {
+  /* background-color: rgba(0, 0, 0, 0.96); */
+  background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.8)) ,url(../images/pexels-asim-alnamat-32997.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.title h1 {
+  color: #FFF;
+  text-align: center;
+  font-size: 70px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subtitle p {
+  color: #FFF;
+  text-align: center;
+  font-size: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 50px;
+}
+
+.button {
+  display: flex;
+  width: 240.39px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  border-radius: 32px;
+}
+
+.button a {
+  color: #FFF;
+  font-size: 17px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  background: linear-gradient(180deg, #3AC4FF 0%, rgba(78, 212, 255, 0.00) 100%);
+  box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.login {
+  display: flex;
+  width: 199px;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.login a{
+  color: #FFF;
+  text-align: center;
+  font-size: 17px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+}
